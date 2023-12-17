@@ -1,0 +1,50 @@
+site_name: Mi's Knowledge Base
+
+theme:
+  name: material
+  palette:
+    primary: cyan
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+
+extra:
+  homepage: https://know.mzxr.top/
+
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - others/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+nav:
+  - 前言: index.md
+  - 数学:
+    - 数学/index.md
+    - 数学/数学分析.md
+    - 数学/线性代数.md
+    - 数学/概率论.md
+  - 科学:
+    - 科学/index.md
+    - 经济学:
+      - 科学/经济学/index.md
+      - 科学/经济学/基本原理.md
+      - 科学/经济学/博弈论.md
+      - 科学/经济学/信息经济学.md
+      - 科学/经济学/委托代理关系.md
+      - 科学/经济学/经济与法.md
+  - 哲学:
+    - 哲学/index.md
+  - 杂记:
+    - 杂记/趣闻.md
