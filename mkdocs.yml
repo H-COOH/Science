@@ -13,7 +13,7 @@ theme:
     - toc.integrate
 
 extra:
-  homepage: https://know.mzxr.top/
+  homepage: https://know.mzxr.online/
 
 markdown_extensions:
   - admonition
@@ -29,22 +29,9 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 nav:
-  - 前言: index.md
-  - 数学:
-    - 数学/index.md
-    - 数学/数学分析.md
-    - 数学/线性代数.md
-    - 数学/概率论.md
-  - 科学:
-    - 科学/index.md
-    - 经济学:
-      - 科学/经济学/index.md
-      - 科学/经济学/基本原理.md
-      - 科学/经济学/博弈论.md
-      - 科学/经济学/信息经济学.md
-      - 科学/经济学/委托代理关系.md
-      - 科学/经济学/经济与法.md
-  - 哲学:
-    - 哲学/index.md
-  - 杂记:
-    - 杂记/趣闻.md
+  - index.md
+  - 节日:
+    - weeks/index.md
+    - 2025:
+      - weeks/2025/birth.md
+      - weeks/2025/mental.md
