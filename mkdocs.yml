@@ -33,6 +33,7 @@ nav:
   - 节日:
     - weeks/index.md
     - 2025:
+      - weeks/2025/curse.md
       - weeks/2025/constitution.md
       - weeks/2025/nature.md
       - weeks/2025/birth.md
