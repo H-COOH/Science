@@ -1,4 +1,5 @@
 site_name: Mi's Knowledge Base
+site_url: https://know.mzxr.online/
 
 theme:
   name: material
